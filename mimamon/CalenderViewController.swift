@@ -120,7 +120,7 @@ class CalenderViewController: UIViewController {
             calendarIntervalX      = 35;
             calendarX              = 45;
             calendarIntervalY      = 155;
-            calendarY              = 50;
+            calendarY              = 45;
             calendarSize           = 45;
             calendarFontSize       = 19;
             
@@ -313,6 +313,8 @@ class CalenderViewController: UIViewController {
             
             //ボタンのデザインを決定する
          //   button.backgroundColor = calendarBackGroundColor
+            button.layer.borderColor = UIColor.lightGrayColor().CGColor
+            button.layer.borderWidth = 1.0
             button.setTitleColor(UIColor.blackColor(), forState: .Normal)
             button.titleLabel!.font = UIFont(name: "System", size: CGFloat(calendarFontSize))
             button.layer.cornerRadius = CGFloat(buttonRadius)
