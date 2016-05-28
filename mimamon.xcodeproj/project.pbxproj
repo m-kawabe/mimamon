@@ -10,6 +10,8 @@
 		4A0464391CF9667E00645066 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0464381CF9667E00645066 /* TopViewController.swift */; };
 		4A04643B1CF9669600645066 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04643A1CF9669600645066 /* UserViewController.swift */; };
 		4A04643D1CF966A400645066 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04643C1CF966A400645066 /* DetailViewController.swift */; };
+		4A0464411CF989D200645066 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A04643F1CF989D200645066 /* moon.png */; };
+		4A0464421CF989D200645066 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0464401CF989D200645066 /* sun.png */; };
 		4ADE6C4C1CF95EA80050CD98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE6C4B1CF95EA80050CD98 /* AppDelegate.swift */; };
 		4ADE6C511CF95EA80050CD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE6C4F1CF95EA80050CD98 /* Main.storyboard */; };
 		4ADE6C531CF95EA80050CD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE6C521CF95EA80050CD98 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 		4A0464381CF9667E00645066 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		4A04643A1CF9669600645066 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		4A04643C1CF966A400645066 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4A04643F1CF989D200645066 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		4A0464401CF989D200645066 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
 		4ADE6C481CF95EA70050CD98 /* mimamon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mimamon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADE6C4B1CF95EA80050CD98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADE6C501CF95EA80050CD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A04643E1CF989D200645066 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4A04643F1CF989D200645066 /* moon.png */,
+				4A0464401CF989D200645066 /* sun.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		4ADE6C3F1CF95EA70050CD98 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +114,7 @@
 		4ADE6C4A1CF95EA80050CD98 /* mimamon */ = {
 			isa = PBXGroup;
 			children = (
+				4A04643E1CF989D200645066 /* images */,
 				4ADE6C4B1CF95EA80050CD98 /* AppDelegate.swift */,
 				4ADE6C4F1CF95EA80050CD98 /* Main.storyboard */,
 				4A0464381CF9667E00645066 /* TopViewController.swift */,
@@ -235,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0464411CF989D200645066 /* moon.png in Resources */,
 				4ADE6C561CF95EA80050CD98 /* LaunchScreen.storyboard in Resources */,
+				4A0464421CF989D200645066 /* sun.png in Resources */,
 				4ADE6C531CF95EA80050CD98 /* Assets.xcassets in Resources */,
 				4ADE6C511CF95EA80050CD98 /* Main.storyboard in Resources */,
 			);
@@ -408,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mimamon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.fun.mimamon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mimamon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.fun.mimamon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
