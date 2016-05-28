@@ -21,6 +21,10 @@
 		4A04646E1CF9EE2500645066 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0464691CF9EE2500645066 /* sun.png */; };
 		4A04646F1CF9EE2500645066 /* top_background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A04646A1CF9EE2500645066 /* top_background2.png */; };
 		4A0464701CF9EE2500645066 /* useradd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A04646B1CF9EE2500645066 /* useradd.png */; };
+		4A5670D71CFA04AD00C226C3 /* background7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5670D31CFA04AD00C226C3 /* background7.png */; };
+		4A5670D81CFA04AD00C226C3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5670D41CFA04AD00C226C3 /* icon.png */; };
+		4A5670D91CFA04AD00C226C3 /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5670D51CFA04AD00C226C3 /* pen.png */; };
+		4A5670DA1CFA04AD00C226C3 /* top_background4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5670D61CFA04AD00C226C3 /* top_background4.png */; };
 		4ADE6C4C1CF95EA80050CD98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE6C4B1CF95EA80050CD98 /* AppDelegate.swift */; };
 		4ADE6C511CF95EA80050CD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE6C4F1CF95EA80050CD98 /* Main.storyboard */; };
 		4ADE6C531CF95EA80050CD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE6C521CF95EA80050CD98 /* Assets.xcassets */; };
@@ -62,6 +66,10 @@
 		4A0464691CF9EE2500645066 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
 		4A04646A1CF9EE2500645066 /* top_background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_background2.png; sourceTree = "<group>"; };
 		4A04646B1CF9EE2500645066 /* useradd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = useradd.png; sourceTree = "<group>"; };
+		4A5670D31CFA04AD00C226C3 /* background7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background7.png; sourceTree = "<group>"; };
+		4A5670D41CFA04AD00C226C3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4A5670D51CFA04AD00C226C3 /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen.png; sourceTree = "<group>"; };
+		4A5670D61CFA04AD00C226C3 /* top_background4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_background4.png; sourceTree = "<group>"; };
 		4ADE6C481CF95EA70050CD98 /* mimamon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mimamon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADE6C4B1CF95EA80050CD98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADE6C501CF95EA80050CD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,6 +116,10 @@
 		4A0464661CF9EE2500645066 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				4A5670D31CFA04AD00C226C3 /* background7.png */,
+				4A5670D41CFA04AD00C226C3 /* icon.png */,
+				4A5670D51CFA04AD00C226C3 /* pen.png */,
+				4A5670D61CFA04AD00C226C3 /* top_background4.png */,
 				4A0464671CF9EE2500645066 /* background6.png */,
 				4A0464681CF9EE2500645066 /* moon.png */,
 				88D0A8821CF9F5E00068B4E9 /* usericon.png */,
@@ -286,9 +298,13 @@
 				4A04646C1CF9EE2500645066 /* background6.png in Resources */,
 				4A04646D1CF9EE2500645066 /* moon.png in Resources */,
 				4ADE6C561CF95EA80050CD98 /* LaunchScreen.storyboard in Resources */,
+				4A5670DA1CFA04AD00C226C3 /* top_background4.png in Resources */,
 				88D0A8831CF9F5E00068B4E9 /* usericon.png in Resources */,
 				4ADE6C531CF95EA80050CD98 /* Assets.xcassets in Resources */,
+				4A5670D81CFA04AD00C226C3 /* icon.png in Resources */,
 				4A04646F1CF9EE2500645066 /* top_background2.png in Resources */,
+				4A5670D71CFA04AD00C226C3 /* background7.png in Resources */,
+				4A5670D91CFA04AD00C226C3 /* pen.png in Resources */,
 				4A0464701CF9EE2500645066 /* useradd.png in Resources */,
 				4ADE6C511CF95EA80050CD98 /* Main.storyboard in Resources */,
 			);
@@ -464,7 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mimamon/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.fun.mimamon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,7 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mimamon/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.fun.mimamon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
