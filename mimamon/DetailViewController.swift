@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import SpriteKit
 
 class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let myLabel: UILabel = UILabel(frame: CGRectMake(122.0, 144.0, 32.0, 50.0))
+        myLabel.backgroundColor = UIColor.cyanColor()
+        myLabel.text = ""
+        self.view.addSubview(myLabel)
+        
+        let myLabel2: UILabel = UILabel(frame: CGRectMake(218.0, 144.0, 10.7, 50.0))
+        myLabel2.backgroundColor = UIColor.cyanColor()
+        myLabel2.text = ""
+        self.view.addSubview(myLabel2)
     }
     
     override func didReceiveMemoryWarning() {
