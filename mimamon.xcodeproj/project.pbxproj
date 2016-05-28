@@ -27,6 +27,7 @@
 		4ADE6C561CF95EA80050CD98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE6C541CF95EA80050CD98 /* LaunchScreen.storyboard */; };
 		4ADE6C611CF95EA80050CD98 /* mimamonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE6C601CF95EA80050CD98 /* mimamonTests.swift */; };
 		4ADE6C6C1CF95EA80050CD98 /* mimamonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE6C6B1CF95EA80050CD98 /* mimamonUITests.swift */; };
+		88D0A8831CF9F5E00068B4E9 /* usericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8821CF9F5E00068B4E9 /* usericon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		4ADE6C671CF95EA80050CD98 /* mimamonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mimamonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADE6C6B1CF95EA80050CD98 /* mimamonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mimamonUITests.swift; sourceTree = "<group>"; };
 		4ADE6C6D1CF95EA80050CD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D0A8821CF9F5E00068B4E9 /* usericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usericon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				4A0464671CF9EE2500645066 /* background6.png */,
 				4A0464681CF9EE2500645066 /* moon.png */,
+				88D0A8821CF9F5E00068B4E9 /* usericon.png */,
 				4A0464691CF9EE2500645066 /* sun.png */,
 				4A04646A1CF9EE2500645066 /* top_background2.png */,
 				4A04646B1CF9EE2500645066 /* useradd.png */,
@@ -283,6 +286,7 @@
 				4A04646C1CF9EE2500645066 /* background6.png in Resources */,
 				4A04646D1CF9EE2500645066 /* moon.png in Resources */,
 				4ADE6C561CF95EA80050CD98 /* LaunchScreen.storyboard in Resources */,
+				88D0A8831CF9F5E00068B4E9 /* usericon.png in Resources */,
 				4ADE6C531CF95EA80050CD98 /* Assets.xcassets in Resources */,
 				4A04646F1CF9EE2500645066 /* top_background2.png in Resources */,
 				4A0464701CF9EE2500645066 /* useradd.png in Resources */,
