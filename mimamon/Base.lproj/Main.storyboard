@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jUt-cz-Y4m">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jUt-cz-Y4m">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -551,20 +551,32 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5U-lB-Ma9">
                                 <rect key="frame" x="70" y="112" width="102" height="102"/>
-                                <state key="normal" image="usericon.png"/>
+                                <state key="normal" image="user_yano.png"/>
                                 <connections>
                                     <segue destination="cg6-ZV-JDm" kind="show" identifier="detail2" id="OOZ-t5-i2G"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WG5-Sl-noJ">
                                 <rect key="frame" x="428" y="112" width="102" height="102"/>
-                                <state key="normal" image="usericon.png"/>
+                                <state key="normal" image="user_nagai.png"/>
                                 <connections>
                                     <segue destination="cg6-ZV-JDm" kind="show" identifier="detail1" id="nh6-Ch-iU4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43X-xt-tVQ">
                                 <rect key="frame" x="70" y="288" width="102" height="102"/>
+                                <state key="normal" image="user_kudo.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ivh-g0-cRn">
+                                <rect key="frame" x="71" y="464" width="100" height="100"/>
+                                <state key="normal" image="user_kawabe.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBW-Ao-EqC">
+                                <rect key="frame" x="429" y="289" width="100" height="100"/>
+                                <state key="normal" image="user_hyodo.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wx9-BY-g7o">
+                                <rect key="frame" x="428" y="463" width="102" height="102"/>
                                 <state key="normal" image="useradd.png"/>
                             </button>
                         </subviews>
@@ -575,13 +587,19 @@
                             <constraint firstItem="f5U-lB-Ma9" firstAttribute="top" secondItem="xlH-Cb-zBc" secondAttribute="bottom" constant="48" id="AjY-sS-1fk"/>
                             <constraint firstItem="mBC-Le-LEq" firstAttribute="top" secondItem="VPK-o8-BGs" secondAttribute="bottom" id="Bgr-Q8-EoN"/>
                             <constraint firstItem="VPK-o8-BGs" firstAttribute="leading" secondItem="Vpw-SC-ReZ" secondAttribute="leadingMargin" constant="-20" id="Cv8-jV-wwW"/>
+                            <constraint firstItem="OBW-Ao-EqC" firstAttribute="top" secondItem="WG5-Sl-noJ" secondAttribute="bottom" constant="75" id="FMS-4i-5nG"/>
                             <constraint firstItem="43X-xt-tVQ" firstAttribute="leading" secondItem="Vpw-SC-ReZ" secondAttribute="leadingMargin" constant="50" id="HUl-ax-RF8"/>
                             <constraint firstItem="xlH-Cb-zBc" firstAttribute="leading" secondItem="Vpw-SC-ReZ" secondAttribute="leadingMargin" constant="-20" id="JmN-Au-BKE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wx9-BY-g7o" secondAttribute="trailing" constant="50" id="Kyi-k9-2ND"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OBW-Ao-EqC" secondAttribute="trailing" constant="51" id="Pcy-0A-PGI"/>
                             <constraint firstItem="43X-xt-tVQ" firstAttribute="top" secondItem="f5U-lB-Ma9" secondAttribute="bottom" constant="74" id="TFd-p2-lq5"/>
+                            <constraint firstItem="Ivh-g0-cRn" firstAttribute="top" secondItem="43X-xt-tVQ" secondAttribute="bottom" constant="74" id="Zp7-xy-jzF"/>
                             <constraint firstItem="f5U-lB-Ma9" firstAttribute="leading" secondItem="Vpw-SC-ReZ" secondAttribute="leadingMargin" constant="50" id="cfE-tt-OG9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VPK-o8-BGs" secondAttribute="trailing" constant="-20" id="dTF-jb-NaF"/>
+                            <constraint firstItem="wx9-BY-g7o" firstAttribute="top" secondItem="OBW-Ao-EqC" secondAttribute="bottom" constant="74" id="gFz-rz-xWN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WG5-Sl-noJ" secondAttribute="trailing" constant="50" id="gmm-Cm-Gxk"/>
                             <constraint firstItem="VPK-o8-BGs" firstAttribute="top" secondItem="xlH-Cb-zBc" secondAttribute="bottom" id="hxO-hr-7le"/>
+                            <constraint firstItem="Ivh-g0-cRn" firstAttribute="leading" secondItem="Vpw-SC-ReZ" secondAttribute="leadingMargin" constant="51" id="ieC-aQ-W1k"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xlH-Cb-zBc" secondAttribute="trailing" constant="-20" id="uYQ-yf-4Uq"/>
                         </constraints>
                     </view>
@@ -616,8 +634,12 @@
         <image name="right.png" width="20" height="20"/>
         <image name="sun.png" width="20" height="20"/>
         <image name="top_background4.png" width="751" height="1334"/>
+        <image name="user_hyodo.png" width="100" height="100"/>
+        <image name="user_kawabe.png" width="100" height="100"/>
+        <image name="user_kudo.png" width="100" height="100"/>
+        <image name="user_nagai.png" width="100" height="100"/>
+        <image name="user_yano.png" width="100" height="100"/>
         <image name="useradd.png" width="102" height="102"/>
-        <image name="usericon.png" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="nh6-Ch-iU4"/>
