@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jUt-cz-Y4m">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jUt-cz-Y4m">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -21,21 +21,28 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_background4.png" translatesAutoresizingMaskIntoConstraints="NO" id="uas-IV-SCf">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBa-XL-dsn">
-                                <rect key="frame" x="277" y="306" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBa-XL-dsn">
+                                <rect key="frame" x="256" y="304" width="88" height="33"/>
+                                <state key="normal" image="botan-1.png"/>
                                 <connections>
                                     <segue destination="pqI-JQ-v1i" kind="show" id="psQ-VN-ZcT"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="icon_top.png" translatesAutoresizingMaskIntoConstraints="NO" id="tLT-w8-hs0">
+                                <rect key="frame" x="235" y="136" width="131" height="102"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="CBa-XL-dsn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9fv-y5-ATq"/>
+                            <constraint firstItem="tLT-w8-hs0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Iia-jR-Zfc"/>
                             <constraint firstItem="uas-IV-SCf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="LYb-ra-kLb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uas-IV-SCf" secondAttribute="trailing" constant="-20" id="aCg-Ox-Ceo"/>
                             <constraint firstItem="uas-IV-SCf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="bAg-3Q-Th8"/>
+                            <constraint firstItem="CBa-XL-dsn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e15-yF-gyo"/>
                             <constraint firstItem="CBa-XL-dsn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tyV-6X-hZu"/>
+                            <constraint firstItem="CBa-XL-dsn" firstAttribute="top" secondItem="tLT-w8-hs0" secondAttribute="bottom" constant="66" id="uE5-ie-Bic"/>
+                            <constraint firstItem="tLT-w8-hs0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="116" id="y8j-WE-M9b"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uas-IV-SCf" secondAttribute="bottom" id="yiq-gk-g8r"/>
                         </constraints>
                     </view>
@@ -59,10 +66,10 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YFl-lV-0Kb">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
-                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.69803921570000005" green="0.50588235290000005" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Title" id="pzS-MT-6A5">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="vJC-86-pl5">
+                                    <navigationItem id="pzS-MT-6A5">
+                                        <barButtonItem key="leftBarButtonItem" title="戻る" id="vJC-86-pl5">
                                             <connections>
                                                 <action selector="BackButtonAction:" destination="cg6-ZV-JDm" id="Ykw-JD-7Ub"/>
                                             </connections>
@@ -327,10 +334,10 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QAN-Ia-TR3">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
-                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.69803921570000005" green="0.50588235290000005" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Title" id="SQ3-vh-uuC">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="BZC-Pa-dLv">
+                                    <navigationItem id="SQ3-vh-uuC">
+                                        <barButtonItem key="leftBarButtonItem" title="戻る" id="BZC-Pa-dLv">
                                             <connections>
                                                 <action selector="BackButtonAction:" destination="tDG-ho-Yz6" id="a5V-Hx-C3n"/>
                                             </connections>
@@ -535,10 +542,11 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xlH-Cb-zBc">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
-                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.69803921568627447" green="0.50588235294117645" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Title" id="f8U-su-2Sy">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="2fB-w8-oxf">
+                                    <navigationItem id="f8U-su-2Sy">
+                                        <barButtonItem key="leftBarButtonItem" title="戻る" id="2fB-w8-oxf">
                                             <connections>
                                                 <action selector="BackButtonAction:" destination="pqI-JQ-v1i" id="9nL-Ze-j18"/>
                                             </connections>
@@ -701,6 +709,8 @@
     </scenes>
     <resources>
         <image name="background7.png" width="750" height="1334"/>
+        <image name="botan-1.png" width="88" height="33"/>
+        <image name="icon_top.png" width="120" height="87"/>
         <image name="left.png" width="20" height="20"/>
         <image name="moon.png" width="18" height="17"/>
         <image name="pen.png" width="20" height="20"/>
