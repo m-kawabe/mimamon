@@ -107,17 +107,17 @@ class CalenderViewController: UIViewController {
             //iPhone6
         } else if (screenWidth == 375 && screenHeight == 667) {
             
-            calendarLabelIntervalX = 15;
-            calendarLabelX         = 50;
+            calendarLabelIntervalX = 35;
+            calendarLabelX         = 45;
             calendarLabelY         = 125;
             calendarLabelWidth     = 45;
             calendarLabelHeight    = 25;
             calendarLableFontSize  = 16;
             
-            buttonRadius           = 22.5;
+            buttonRadius           = 0.0;
             
-            calendarIntervalX      = 15;
-            calendarX              = 50;
+            calendarIntervalX      = 35;
+            calendarX              = 45;
             calendarIntervalY      = 155;
             calendarY              = 50;
             calendarSize           = 45;
@@ -180,7 +180,7 @@ class CalenderViewController: UIViewController {
         mArray = NSMutableArray()
         
         //曜日ラベル初期定義
-        let monthName:[String] = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
+        let monthName:[String] = ["日","月","火","水","木","金","土"]
         
         //曜日ラベルを動的に配置
         setupCalendarLabel(monthName)
@@ -307,12 +307,12 @@ class CalenderViewController: UIViewController {
                     red: CGFloat(0.400), green: CGFloat(0.471), blue: CGFloat(0.980), alpha: CGFloat(1.0)
                 )
             } else {
-                calendarBackGroundColor = UIColor.lightGrayColor()
+              //  calendarBackGroundColor = UIColor.lightGrayColor()
             }
             
             //ボタンのデザインを決定する
-            button.backgroundColor = calendarBackGroundColor
-            button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+         //   button.backgroundColor = calendarBackGroundColor
+            button.setTitleColor(UIColor.blackColor(), forState: .Normal)
             button.titleLabel!.font = UIFont(name: "System", size: CGFloat(calendarFontSize))
             button.layer.cornerRadius = CGFloat(buttonRadius)
             
