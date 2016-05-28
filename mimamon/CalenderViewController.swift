@@ -40,6 +40,7 @@ class CalenderViewController: UIViewController {
     @IBOutlet weak var prevMonthButton: UIButton!
     @IBOutlet weak var nextMonthButton: UIButton!
     
+    @IBOutlet weak var dateText: UILabel!
     
     //カレンダーの位置決め用メンバ変数
     var calendarLabelIntervalX: Int!
@@ -444,6 +445,7 @@ class CalenderViewController: UIViewController {
         
         //@todo:画面遷移等の処理を書くことができます。
         
+        dateText.text = "\(button.tag)日"
         //コンソール表示
         print("\(year)年\(month)月\(button.tag)日が選択されました！")
     }
