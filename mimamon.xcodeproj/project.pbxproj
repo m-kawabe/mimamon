@@ -32,6 +32,8 @@
 		4ADE6C611CF95EA80050CD98 /* mimamonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE6C601CF95EA80050CD98 /* mimamonTests.swift */; };
 		4ADE6C6C1CF95EA80050CD98 /* mimamonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE6C6B1CF95EA80050CD98 /* mimamonUITests.swift */; };
 		88D0A8831CF9F5E00068B4E9 /* usericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8821CF9F5E00068B4E9 /* usericon.png */; };
+		88D0A8871CFA07790068B4E9 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8861CFA07790068B4E9 /* left.png */; };
+		88D0A8891CFA07800068B4E9 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8881CFA07800068B4E9 /* right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		4ADE6C6B1CF95EA80050CD98 /* mimamonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mimamonUITests.swift; sourceTree = "<group>"; };
 		4ADE6C6D1CF95EA80050CD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88D0A8821CF9F5E00068B4E9 /* usericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usericon.png; sourceTree = "<group>"; };
+		88D0A8861CFA07790068B4E9 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		88D0A8881CFA07800068B4E9 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 			children = (
 				4A5670D31CFA04AD00C226C3 /* background7.png */,
 				4A5670D41CFA04AD00C226C3 /* icon.png */,
+				88D0A8881CFA07800068B4E9 /* right.png */,
+				88D0A8861CFA07790068B4E9 /* left.png */,
 				4A5670D51CFA04AD00C226C3 /* pen.png */,
 				4A5670D61CFA04AD00C226C3 /* top_background4.png */,
 				4A0464671CF9EE2500645066 /* background6.png */,
@@ -294,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D0A8891CFA07800068B4E9 /* right.png in Resources */,
 				4A04646E1CF9EE2500645066 /* sun.png in Resources */,
 				4A04646C1CF9EE2500645066 /* background6.png in Resources */,
 				4A04646D1CF9EE2500645066 /* moon.png in Resources */,
@@ -306,6 +313,7 @@
 				4A5670D71CFA04AD00C226C3 /* background7.png in Resources */,
 				4A5670D91CFA04AD00C226C3 /* pen.png in Resources */,
 				4A0464701CF9EE2500645066 /* useradd.png in Resources */,
+				88D0A8871CFA07790068B4E9 /* left.png in Resources */,
 				4ADE6C511CF95EA80050CD98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
