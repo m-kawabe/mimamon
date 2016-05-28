@@ -10,9 +10,13 @@ import UIKit
 
 class UserViewController: UIViewController {
     
+    @IBOutlet weak var yano_studyImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        let image:UIImage = UIImage(named:"pen.png")!
+//        yano_studyImageView = UIImageView(image:image)
+        yano_studyImageView.image = nil
     }
     
     override func didReceiveMemoryWarning() {
