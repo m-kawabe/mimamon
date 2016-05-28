@@ -28,7 +28,6 @@
 		4ADE6C611CF95EA80050CD98 /* mimamonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE6C601CF95EA80050CD98 /* mimamonTests.swift */; };
 		4ADE6C6C1CF95EA80050CD98 /* mimamonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE6C6B1CF95EA80050CD98 /* mimamonUITests.swift */; };
 		88D0A8831CF9F5E00068B4E9 /* usericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8821CF9F5E00068B4E9 /* usericon.png */; };
-		88D0A8851CF9F8660068B4E9 /* CVCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D0A8841CF9F8660068B4E9 /* CVCalendar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +75,6 @@
 		4ADE6C6B1CF95EA80050CD98 /* mimamonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mimamonUITests.swift; sourceTree = "<group>"; };
 		4ADE6C6D1CF95EA80050CD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88D0A8821CF9F5E00068B4E9 /* usericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usericon.png; sourceTree = "<group>"; };
-		88D0A8841CF9F8660068B4E9 /* CVCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CVCalendar.framework; path = "../../Library/Developer/Xcode/DerivedData/mimamon-baibshsjyktjhccjpkovnhobdvcj/Build/Products/Debug-iphonesimulator/CVCalendar.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88D0A8851CF9F8660068B4E9 /* CVCalendar.framework in Frameworks */,
 				4A0464581CF9AAFE00645066 /* Foundation.framework in Frameworks */,
 				4A0464571CF9AAF900645066 /* QuartzCore.framework in Frameworks */,
 				4A0464561CF9AAF100645066 /* UIKit.framework in Frameworks */,
@@ -124,7 +121,6 @@
 		4ADE6C3F1CF95EA70050CD98 = {
 			isa = PBXGroup;
 			children = (
-				88D0A8841CF9F8660068B4E9 /* CVCalendar.framework */,
 				4A0464541CF9AAA700645066 /* Foundation.framework */,
 				4A0464521CF9AAA200645066 /* QuartzCore.framework */,
 				4A0464501CF9AA9B00645066 /* UIKit.framework */,
