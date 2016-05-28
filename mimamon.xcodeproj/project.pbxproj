@@ -10,8 +10,14 @@
 		4A0464391CF9667E00645066 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0464381CF9667E00645066 /* TopViewController.swift */; };
 		4A04643B1CF9669600645066 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04643A1CF9669600645066 /* UserViewController.swift */; };
 		4A04643D1CF966A400645066 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04643C1CF966A400645066 /* DetailViewController.swift */; };
-		4A0464411CF989D200645066 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A04643F1CF989D200645066 /* moon.png */; };
-		4A0464421CF989D200645066 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0464401CF989D200645066 /* sun.png */; };
+		4A04644D1CF9AA2600645066 /* CalcurateCalenderLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04644C1CF9AA2600645066 /* CalcurateCalenderLogic.swift */; };
+		4A04644F1CF9AA4A00645066 /* DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04644E1CF9AA4A00645066 /* DeviceSize.swift */; };
+		4A0464561CF9AAF100645066 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0464501CF9AA9B00645066 /* UIKit.framework */; };
+		4A0464571CF9AAF900645066 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0464521CF9AAA200645066 /* QuartzCore.framework */; };
+		4A0464581CF9AAFE00645066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0464541CF9AAA700645066 /* Foundation.framework */; };
+		4A04645A1CF9B22C00645066 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0464591CF9B22C00645066 /* CalenderViewController.swift */; };
+		4A04645E1CF9E8E300645066 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A04645C1CF9E8E300645066 /* moon.png */; };
+		4A04645F1CF9E8E300645066 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A04645D1CF9E8E300645066 /* sun.png */; };
 		4ADE6C4C1CF95EA80050CD98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE6C4B1CF95EA80050CD98 /* AppDelegate.swift */; };
 		4ADE6C511CF95EA80050CD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE6C4F1CF95EA80050CD98 /* Main.storyboard */; };
 		4ADE6C531CF95EA80050CD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE6C521CF95EA80050CD98 /* Assets.xcassets */; };
@@ -41,8 +47,14 @@
 		4A0464381CF9667E00645066 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		4A04643A1CF9669600645066 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		4A04643C1CF966A400645066 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		4A04643F1CF989D200645066 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
-		4A0464401CF989D200645066 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		4A04644C1CF9AA2600645066 /* CalcurateCalenderLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcurateCalenderLogic.swift; sourceTree = "<group>"; };
+		4A04644E1CF9AA4A00645066 /* DeviceSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceSize.swift; sourceTree = "<group>"; };
+		4A0464501CF9AA9B00645066 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A0464521CF9AAA200645066 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4A0464541CF9AAA700645066 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A0464591CF9B22C00645066 /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		4A04645C1CF9E8E300645066 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		4A04645D1CF9E8E300645066 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
 		4ADE6C481CF95EA70050CD98 /* mimamon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mimamon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADE6C4B1CF95EA80050CD98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADE6C501CF95EA80050CD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0464581CF9AAFE00645066 /* Foundation.framework in Frameworks */,
+				4A0464571CF9AAF900645066 /* QuartzCore.framework in Frameworks */,
+				4A0464561CF9AAF100645066 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,18 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A04643E1CF989D200645066 /* images */ = {
+		4A04645B1CF9E8E300645066 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				4A04643F1CF989D200645066 /* moon.png */,
-				4A0464401CF989D200645066 /* sun.png */,
+				4A04645C1CF9E8E300645066 /* moon.png */,
+				4A04645D1CF9E8E300645066 /* sun.png */,
 			);
-			path = images;
+			name = images;
+			path = ../../Downloads/images;
 			sourceTree = "<group>";
 		};
 		4ADE6C3F1CF95EA70050CD98 = {
 			isa = PBXGroup;
 			children = (
+				4A0464541CF9AAA700645066 /* Foundation.framework */,
+				4A0464521CF9AAA200645066 /* QuartzCore.framework */,
+				4A0464501CF9AA9B00645066 /* UIKit.framework */,
 				4ADE6C4A1CF95EA80050CD98 /* mimamon */,
 				4ADE6C5F1CF95EA80050CD98 /* mimamonTests */,
 				4ADE6C6A1CF95EA80050CD98 /* mimamonUITests */,
@@ -114,12 +133,15 @@
 		4ADE6C4A1CF95EA80050CD98 /* mimamon */ = {
 			isa = PBXGroup;
 			children = (
-				4A04643E1CF989D200645066 /* images */,
 				4ADE6C4B1CF95EA80050CD98 /* AppDelegate.swift */,
+				4A04645B1CF9E8E300645066 /* images */,
 				4ADE6C4F1CF95EA80050CD98 /* Main.storyboard */,
 				4A0464381CF9667E00645066 /* TopViewController.swift */,
 				4A04643A1CF9669600645066 /* UserViewController.swift */,
 				4A04643C1CF966A400645066 /* DetailViewController.swift */,
+				4A0464591CF9B22C00645066 /* CalenderViewController.swift */,
+				4A04644C1CF9AA2600645066 /* CalcurateCalenderLogic.swift */,
+				4A04644E1CF9AA4A00645066 /* DeviceSize.swift */,
 				4ADE6C521CF95EA80050CD98 /* Assets.xcassets */,
 				4ADE6C541CF95EA80050CD98 /* LaunchScreen.storyboard */,
 				4ADE6C571CF95EA80050CD98 /* Info.plist */,
@@ -249,9 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A0464411CF989D200645066 /* moon.png in Resources */,
+				4A04645E1CF9E8E300645066 /* moon.png in Resources */,
 				4ADE6C561CF95EA80050CD98 /* LaunchScreen.storyboard in Resources */,
-				4A0464421CF989D200645066 /* sun.png in Resources */,
+				4A04645F1CF9E8E300645066 /* sun.png in Resources */,
 				4ADE6C531CF95EA80050CD98 /* Assets.xcassets in Resources */,
 				4ADE6C511CF95EA80050CD98 /* Main.storyboard in Resources */,
 			);
@@ -278,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A04644D1CF9AA2600645066 /* CalcurateCalenderLogic.swift in Sources */,
 				4A0464391CF9667E00645066 /* TopViewController.swift in Sources */,
+				4A04644F1CF9AA4A00645066 /* DeviceSize.swift in Sources */,
 				4A04643B1CF9669600645066 /* UserViewController.swift in Sources */,
+				4A04645A1CF9B22C00645066 /* CalenderViewController.swift in Sources */,
 				4A04643D1CF966A400645066 /* DetailViewController.swift in Sources */,
 				4ADE6C4C1CF95EA80050CD98 /* AppDelegate.swift in Sources */,
 			);
