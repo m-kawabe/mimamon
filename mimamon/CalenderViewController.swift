@@ -24,6 +24,7 @@ class CalenderViewController: UIViewController {
     var day: Int!
     var maxDay: Int!
     var dayOfWeek: Int!
+    var dicCount = 0
     
     //メンバ変数の設定（カレンダー関数から取得したものを渡す）
     var comps: NSDateComponents!
@@ -188,6 +189,70 @@ class CalenderViewController: UIViewController {
         
         //初期表示時のカレンダーをセットアップする
         setupCurrentCalendar()
+        
+        let URL = NSURL(string: "http://160.16.205.237/mimamon/logs/dayHistory/1/2016-05-29")
+        let req = NSURLRequest(URL: URL!)
+        
+        let configuration = NSURLSessionConfiguration.defaultSessionConfiguration()
+        let session = NSURLSession(configuration: configuration, delegate:nil, delegateQueue:NSOperationQueue.mainQueue())
+        
+        let task = session.dataTaskWithRequest(req, completionHandler: {
+            (data, response, error) -> Void in
+            do {
+                
+                
+                var s_m:CGFloat = 0.0
+                var e_m:CGFloat = 0.0
+                
+                let dict = try NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
+                self.dicCount += dict["1"]!.count
+                for i in 0 ..< dict["1"]!.count {
+                    s_m = dict["1"]![i]["start_time"] as! CGFloat
+                    e_m = dict["1"]![i]["end_time"] as! CGFloat
+                    
+                    if(i == 0){
+                        let myLabel0: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel0.backgroundColor = UIColor.brownColor()
+                        myLabel0.text = ""
+                        self.view.addSubview(myLabel0)
+                        
+                    }else if(i == 1){
+                        let myLabel1: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel1.backgroundColor = UIColor.brownColor()
+                        myLabel1.text = ""
+                        self.view.addSubview(myLabel1)
+                    }else if(i == 2){
+                        let myLabel2: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel2.backgroundColor = UIColor.brownColor()
+                        myLabel2.text = ""
+                        self.view.addSubview(myLabel2)
+                    }else if(i == 3){
+                        let myLabel3: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel3.backgroundColor = UIColor.brownColor()
+                        myLabel3.text = ""
+                        self.view.addSubview(myLabel3)
+                    }else if(i == 4){
+                        let myLabel4: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel4.backgroundColor = UIColor.brownColor()
+                        myLabel4.text = ""
+                        self.view.addSubview(myLabel4)
+                    }else if(i == 5){
+                        let myLabel5: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel5.backgroundColor = UIColor.brownColor()
+                        myLabel5.text = ""
+                        self.view.addSubview(myLabel5)
+                    }
+                }
+            } catch {
+                //エラー処理
+            }
+            
+        })
+        task.resume()
+        
+
+
+        
     }
     
     //曜日ラベルの動的配置関数
@@ -450,6 +515,81 @@ class CalenderViewController: UIViewController {
         dateText.text = "\(month)月\(button.tag)日"
         //コンソール表示
         print("\(year)年\(month)月\(button.tag)日が選択されました！")
+        
+        let subviews = self.view.subviews
+        var count = 0
+        for subview in subviews{
+            for(var j = 77; j < 77 + dicCount; j++){
+                if(count == j){
+                    subview.removeFromSuperview()
+                }
+            }
+
+
+            count++
+        }
+        var URL3 = "http://160.16.205.237/mimamon/logs/dayHistory/1/2016-05-" +  "\(button.tag)"
+        let URL = NSURL(string: URL3)
+        let req = NSURLRequest(URL: URL!)
+        
+        let configuration = NSURLSessionConfiguration.defaultSessionConfiguration()
+        let session = NSURLSession(configuration: configuration, delegate:nil, delegateQueue:NSOperationQueue.mainQueue())
+        
+        let task = session.dataTaskWithRequest(req, completionHandler: {
+            (data, response, error) -> Void in
+            do {
+                
+                
+                var s_m:CGFloat = 0.0
+                var e_m:CGFloat = 0.0
+                
+                let dict = try NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
+                for i in 0 ..< dict["1"]!.count {
+                    s_m = dict["1"]![i]["start_time"] as! CGFloat
+                    e_m = dict["1"]![i]["end_time"] as! CGFloat
+                    
+                    if(i == 0){
+                        let myLabel0: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel0.backgroundColor = UIColor.brownColor()
+                        myLabel0.text = ""
+                        self.view.addSubview(myLabel0)
+                        
+                    }else if(i == 1){
+                        let myLabel1: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel1.backgroundColor = UIColor.brownColor()
+                        myLabel1.text = ""
+                        self.view.addSubview(myLabel1)
+                    }else if(i == 2){
+                        let myLabel2: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel2.backgroundColor = UIColor.brownColor()
+                        myLabel2.text = ""
+                        self.view.addSubview(myLabel2)
+                    }else if(i == 3){
+                        let myLabel3: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel3.backgroundColor = UIColor.brownColor()
+                        myLabel3.text = ""
+                        self.view.addSubview(myLabel3)
+                    }else if(i == 4){
+                        let myLabel4: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel4.backgroundColor = UIColor.brownColor()
+                        myLabel4.text = ""
+                        self.view.addSubview(myLabel4)
+                    }else if(i == 5){
+                        let myLabel5: UILabel = UILabel(frame: CGRectMake(s_m * 0.178 + 101, 489, (e_m - s_m) * 0.178, 50.0))
+                        myLabel5.backgroundColor = UIColor.brownColor()
+                        myLabel5.text = ""
+                        self.view.addSubview(myLabel5)
+                    }
+                }
+            } catch {
+                //エラー処理
+            }
+            
+        })
+        task.resume()
+
+        
+        
     }
     
     //前の月のボタンを押した際のアクション
