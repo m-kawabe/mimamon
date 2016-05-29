@@ -41,6 +41,8 @@
 		88D0A8931CFA10EC0068B4E9 /* user_yano.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8901CFA10EC0068B4E9 /* user_yano.png */; };
 		88D0A8A51CFA38400068B4E9 /* icon_top3.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8A41CFA38400068B4E9 /* icon_top3.png */; };
 		88D0A8A71CFA38480068B4E9 /* bottan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8A61CFA38480068B4E9 /* bottan2.png */; };
+		88D0A8B31CFA99230068B4E9 /* user_add2-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8B21CFA99230068B4E9 /* user_add2-1.png */; };
+		88D0A8B51CFA99270068B4E9 /* back-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D0A8B41CFA99270068B4E9 /* back-4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,8 @@
 		88D0A8901CFA10EC0068B4E9 /* user_yano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_yano.png; sourceTree = "<group>"; };
 		88D0A8A41CFA38400068B4E9 /* icon_top3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_top3.png; sourceTree = "<group>"; };
 		88D0A8A61CFA38480068B4E9 /* bottan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottan2.png; sourceTree = "<group>"; };
+		88D0A8B21CFA99230068B4E9 /* user_add2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_add2-1.png"; sourceTree = "<group>"; };
+		88D0A8B41CFA99270068B4E9 /* back-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-4.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				88D0A88F1CFA10EC0068B4E9 /* user_nagai.png */,
 				88D0A8901CFA10EC0068B4E9 /* user_yano.png */,
 				88D0A8A41CFA38400068B4E9 /* icon_top3.png */,
+				88D0A8B21CFA99230068B4E9 /* user_add2-1.png */,
+				88D0A8B41CFA99270068B4E9 /* back-4.png */,
 				88D0A88A1CFA10DC0068B4E9 /* user_hyodo.png */,
 				88D0A88B1CFA10DC0068B4E9 /* user_kawabe.png */,
 				88D0A8A61CFA38480068B4E9 /* bottan2.png */,
@@ -334,7 +340,9 @@
 				4A5670DA1CFA04AD00C226C3 /* top_background4.png in Resources */,
 				88D0A8831CF9F5E00068B4E9 /* usericon.png in Resources */,
 				4ADE6C531CF95EA80050CD98 /* Assets.xcassets in Resources */,
+				88D0A8B31CFA99230068B4E9 /* user_add2-1.png in Resources */,
 				4A5670D81CFA04AD00C226C3 /* icon.png in Resources */,
+				88D0A8B51CFA99270068B4E9 /* back-4.png in Resources */,
 				88D0A8931CFA10EC0068B4E9 /* user_yano.png in Resources */,
 				4A04646F1CF9EE2500645066 /* top_background2.png in Resources */,
 				88D0A8A51CFA38400068B4E9 /* icon_top3.png in Resources */,

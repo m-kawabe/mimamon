@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jUt-cz-Y4m">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jUt-cz-Y4m">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -67,7 +67,7 @@
                                 <color key="barTintColor" red="0.69803921570000005" green="0.50588235290000005" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem id="pzS-MT-6A5">
-                                        <barButtonItem key="leftBarButtonItem" title="戻る" id="vJC-86-pl5">
+                                        <barButtonItem key="leftBarButtonItem" image="back-4.png" id="vJC-86-pl5">
                                             <connections>
                                                 <action selector="BackButtonAction:" destination="cg6-ZV-JDm" id="Ykw-JD-7Ub"/>
                                             </connections>
@@ -335,7 +335,7 @@
                                 <color key="barTintColor" red="0.69803921570000005" green="0.50588235290000005" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem id="SQ3-vh-uuC">
-                                        <barButtonItem key="leftBarButtonItem" title="戻る" id="BZC-Pa-dLv">
+                                        <barButtonItem key="leftBarButtonItem" image="back-4.png" id="BZC-Pa-dLv">
                                             <connections>
                                                 <action selector="BackButtonAction:" destination="tDG-ho-Yz6" id="a5V-Hx-C3n"/>
                                             </connections>
@@ -544,7 +544,7 @@
                                 <color key="barTintColor" red="0.69803921568627447" green="0.50588235294117645" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem id="f8U-su-2Sy">
-                                        <barButtonItem key="leftBarButtonItem" title="戻る" id="2fB-w8-oxf">
+                                        <barButtonItem key="leftBarButtonItem" image="back-4.png" id="2fB-w8-oxf">
                                             <connections>
                                                 <action selector="BackButtonAction:" destination="pqI-JQ-v1i" id="9nL-Ze-j18"/>
                                             </connections>
@@ -583,7 +583,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wx9-BY-g7o">
                                 <rect key="frame" x="428" y="463" width="102" height="102"/>
-                                <state key="normal" image="useradd.png"/>
+                                <state key="normal" image="user_add2-1.png"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="pen.png" translatesAutoresizingMaskIntoConstraints="NO" id="DZz-Qn-1jS">
                                 <rect key="frame" x="146" y="194" width="20" height="20"/>
@@ -763,6 +763,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="back-4.png" width="53" height="18"/>
         <image name="background7.png" width="750" height="1334"/>
         <image name="bottan2.png" width="230" height="89"/>
         <image name="icon_top3.png" width="270" height="191"/>
@@ -772,12 +773,12 @@
         <image name="right.png" width="20" height="20"/>
         <image name="sun.png" width="20" height="20"/>
         <image name="top_background4.png" width="751" height="1334"/>
+        <image name="user_add2-1.png" width="102" height="102"/>
         <image name="user_hyodo.png" width="100" height="100"/>
         <image name="user_kawabe.png" width="100" height="100"/>
         <image name="user_kudo.png" width="100" height="100"/>
         <image name="user_nagai.png" width="100" height="100"/>
         <image name="user_yano.png" width="100" height="100"/>
-        <image name="useradd.png" width="102" height="102"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="nh6-Ch-iU4"/>
