@@ -447,7 +447,7 @@ class CalenderViewController: UIViewController {
         
         //@todo:画面遷移等の処理を書くことができます。
         
-        dateText.text = "\(button.tag)日"
+        dateText.text = "\(month)月\(button.tag)日"
         //コンソール表示
         print("\(year)年\(month)月\(button.tag)日が選択されました！")
     }
