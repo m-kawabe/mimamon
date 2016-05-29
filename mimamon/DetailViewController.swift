@@ -9,12 +9,17 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-    
+    var flag = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let URL = NSURL(string: "http://160.16.205.237/mimamon/logs/weekHistory/1/")
-        let req = NSURLRequest(URL: URL!)
+        var URL:NSURL
+        if(flag == 1){
+            URL = NSURL(string: "http://160.16.205.237/mimamon/logs/weekHistory/1/")!
+        }else{
+            URL = NSURL(string: "http://160.16.205.237/mimamon/logs/weekHistory/2/")!
+        }
+        let req = NSURLRequest(URL: URL)
         
         let configuration = NSURLSessionConfiguration.defaultSessionConfiguration()
         let session = NSURLSession(configuration: configuration, delegate:nil, delegateQueue:NSOperationQueue.mainQueue())

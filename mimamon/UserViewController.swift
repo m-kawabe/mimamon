@@ -124,6 +124,18 @@ class UserViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    
+        if(segue.identifier == "detail1"){
+            let nextViewController:DetailViewController = segue.destinationViewController as! DetailViewController
+            nextViewController.flag = 1
+        }else{
+            let nextViewController:DetailViewController = segue.destinationViewController as! DetailViewController
+            nextViewController.flag = 2
+        }
+    
+    }
+    
     @IBAction func BackButtonAction(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true);
     }
